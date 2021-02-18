@@ -8,6 +8,7 @@ import Contact from "./Contact"
 import About from "./About"
 import Navbar from "./Navbar"
 import Blog from "./Blog"
+import Photos from "./Photos"
  const App=()=>{
   return( <>
   <Navbar/>
@@ -17,6 +18,7 @@ import Blog from "./Blog"
      <Route path="/contact" component={Contact} /> 
      <Route path="/service" component={Service} />
       <Route path="/Blog" component={Blog} />
+      <Route path="/Photos" component={Photos} />
      <Redirect to="/"/>
    </Switch>
    </>)

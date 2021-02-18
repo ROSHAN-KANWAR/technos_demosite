@@ -40,6 +40,9 @@ const Navbar=()=>{
                             <li className="nav-item">
                                 <NavLink exact activeClassName="menu_active" className="nav-link" to="/contact">Contact</NavLink>
                             </li>
+                             <li className="nav-item">
+                                <NavLink exact activeClassName="menu_active" className="nav-link" to="/Photos">Photos</NavLink>
+                            </li>
                         </ul>
                      
                     </div>
